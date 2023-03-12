@@ -1,0 +1,56 @@
+@media screen and (max-width: 1060px) {
+    /* header */
+    #header {
+
+    }
+    
+    .menu {
+      height: ;
+      width: 100%;
+    }
+    
+    .menu ul {
+      display: none;
+      top: 150px;
+    }
+    .menu .navmenu.show{
+     display: flex;
+
+    }
+    .menu ul li {
+
+    }
+    
+    .menu ul li img {
+       width: ;
+       
+    }
+    
+    .menu ul li a {
+       padding: 10px;
+    }
+    
+    .menu ul li a:hover {
+
+    }
+    
+    .menu ul li .active-link {
+
+    }
+    
+    .menu ul li .buttonreglog {
+
+    }
+    
+    .menu ul li .buttonreglog:hover {
+
+    }
+    
+    .menu ul li .pphead {
+
+    }
+    .menu .burgermenu{
+        display: block;
+    }
+    
+    }

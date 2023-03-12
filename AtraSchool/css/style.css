@@ -1,0 +1,941 @@
+@font-face {}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'asap';
+}
+
+/* header */
+#header {
+    width: 100%;
+    height: ;
+
+}
+
+.menu {
+    height: 100px;
+    font-family: ;
+}
+
+.menu ul {
+    float: ;
+    display: inline-flex;
+}
+
+.menu ul li {
+    margin-left: 30px;
+    float: left;
+    list-style-type: none;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.menu ul li img {
+    width: 300px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.menu ul li a {
+
+    /* height: 30px;
+    width: 100px;*/
+    color: #646D78;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    transition: 0.3s;
+    color: #307FE2;
+}
+
+.menu ul li .active-link {
+    color: #307FE2;
+}
+
+.menu ul li .buttonreglog {
+    position: absolute;
+    right: 80px;
+    padding: 5px;
+    background: rgb(48, 127, 226);
+    background: linear-gradient(90deg, rgba(48, 127, 226, 1) 0%, rgba(91, 208, 230, 1) 100%);
+    color: #ffffff;
+    width: auto;
+    /*border: 1px solid #307FE2;*/
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menu ul li .buttonreglog:hover {
+    background: rgb(91, 208, 230);
+    background: linear-gradient(90deg, rgba(91, 208, 230, 1) 0%, rgba(48, 127, 226, 1) 100%);
+    color: #ffffff;
+}
+
+.menu ul li .pphead {
+    width: 40px;
+    position: absolute;
+    right: 80px;
+    padding: 5px;
+    top: 15px;
+    /*border: 1px solid #307FE2;*/
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ----------------------content---------------------------- */
+#content {}
+
+#content .banner {
+    width: 80%;
+    top: 20%;
+    left: 130px;
+    position: absolute;
+    color: ;
+}
+
+#content .app-text {
+    width: 50%;
+    float: left;
+}
+
+#content .app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    color: #307FE2;
+    font-family: 'asap';
+    font-weight: bold;
+}
+
+#content .app-text p {
+    position: relative;
+    top: -20px;
+    width: 650px;
+    font-family: 'asap';
+    margin: 30px 0 30px 40px;
+    line-height: 20px;
+    color: #646D78;
+}
+
+#content .app-picture {
+    width: 50%;
+    float: right;
+}
+
+#content .app-picture img {
+    width: 80%;
+    height: 80%;
+    margin-top: -30px;
+    padding-left: 150px;
+}
+
+#content .app-logregister {
+    position: relative;
+    top: -30px;
+    left: 100px;
+}
+
+#content .app-logregister button {
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    background: rgb(48, 127, 226);
+    background: linear-gradient(90deg, rgba(48, 127, 226, 1) 0%, rgba(91, 208, 230, 1) 100%);
+    color: #ffffff;
+    width: auto;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#content .app-logregister button:hover {
+    background: rgb(91, 208, 230);
+    background: linear-gradient(90deg, rgba(91, 208, 230, 1) 0%, rgba(48, 127, 226, 1) 100%);
+    color: #ffffff;
+}
+
+#content .section {
+    position: absolute;
+    top: 95%;
+    left: 15%;
+    color: ;
+}
+
+#content .section-app {
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+    width: 300px;
+    /*background-color: #307FE2;*/
+    text-align: center;
+    float: left;
+    left: 50%;
+    margin: 10px;
+    color: #307FE2;
+}
+
+#content .section-app p {
+    color: #646D78;
+}
+
+/*----------------------footer--------------*/
+#footer {
+    position: relative;
+    top: 1100px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #646D78;
+    padding: 20px 0px;
+}
+
+#footer .footer-app {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#footer .footer-app ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+#footer .footer-app ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: #307FE2;
+
+}
+
+#footer .footer-app ul li:hover {
+    background: #1E3F63;
+
+}
+
+#footer .footer-app ul li a {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#footer .footer-app ul li a i {
+    line-height: 50px;
+}
+
+#footer .foot-app {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ---------------------login-------------------------- */
+.backtohome {
+    position: relative;
+    top: 30px;
+    left: 640px;
+}
+
+.backtohome button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #1E3F63;
+    border: none;
+    height: 35px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.backtohome button:hover {
+    background-color: #307FE2;
+    transition: .6s;
+}
+
+#boxlogin {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    background-color: #ffffff;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 50em;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+#boxlogin .boxtextlogin {
+    background-color: #b3c6de;
+    height: 500px;
+    width: 340px;
+    color: #192a56;
+    font-family: ;
+    font-size: 17px;
+    text-align: center;
+}
+
+.logolog img {
+    width: 190px;
+    padding-top: 10px;
+}
+
+#boxlogin .boxformlogin {
+    position: relative;
+    top: -350px;
+    left: 400px;
+    width: 300px;
+}
+
+#boxlogin .boxformlogin input[type="email"],
+#boxlogin .boxformlogin input[type="password"] {
+    height: 30px;
+    width: 300px;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #307FE2;
+    padding-left: 35px;
+    font-size: 16px;
+}
+
+#boxlogin .i-input1 {
+    position: absolute;
+    left: 0;
+    top: 39px;
+    padding: 3px 8px;
+    color: #307FE2;
+    transition: .3s;
+}
+
+#boxlogin .i-input2 {
+    position: absolute;
+    left: 0;
+    top: 93px;
+    padding: 3px 8px;
+    color: #307FE2;
+    transition: .3s;
+}
+
+#boxlogin .titleboxform {
+    position: relative;
+    top: -80px;
+    color: #307FE2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#boxlogin .errorlog {
+    position: absolute;
+    top: -25px;
+    left: 27px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e74c3c;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    padding: ;
+}
+
+#boxlogin .boxformlogin button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #4cd137;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#boxlogin .boxformlogin button:hover {
+    color: #ffffff;
+    background-color: #307FE2;
+    transition: .6s;
+}
+
+#boxlogin .boxformlogin a {
+    color: #307FE2;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#boxlogin .boxformlogin a:hover {
+    color: #1E3F63;
+    transition: .3s;
+}
+
+/* ----- page choix de type de compte inscription -----*/
+#boxregisterchoise {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    background-color: #ffffff;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 50em;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+#boxregisterchoise .boxregisterchoise1 {
+    position: relative;
+    background-color: #dcdde1;
+    height: 480px;
+    max-width: 24em;
+    padding-top: 20px;
+}
+
+#boxregisterchoise .boxregisterchoise2 {
+    position: absolute;
+    top: 0px;
+    left: 410px;
+    width: 24em;
+    padding-top: 20px;
+}
+
+.boxregisterchoise1 h2,
+.boxregisterchoise2 h2 {
+    color: #307FE2;
+}
+
+.boxregisterchoise1 p,
+.boxregisterchoise2 p {
+    color: #192a56;
+}
+
+.boxregisterchoise1 button,
+.boxregisterchoise2 button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #4cd137;
+    border: none;
+    height: 35px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.boxregisterchoise1 button:hover,
+.boxregisterchoise2 button:hover {
+    background-color: #307FE2;
+}
+
+/* ----- page inscription prof et eleve -----*/
+#boxregister {
+    text-align: center;
+    position: relative;
+    top: 60px;
+    background-color: #ffffff;
+    height: 500px;
+    margin: 0 auto;
+    max-width: 50em;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+#boxregister .boxtextregister {
+    background-color: #b3c6de;
+    height: 500px;
+    width: 300px;
+    color: #192a56;
+    font-family: ;
+    font-size: 17px;
+    text-align: center;
+}
+
+#boxregister .boxformregister {
+    position: relative;
+    top: -500px;
+    left: 300px;
+    width: 520px;
+}
+
+#boxregister .boxformregister table {
+    position: relative;
+    top: 30px;
+}
+
+#boxregister .boxformregister table tr td label {
+    color: #307FE2;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#boxregister .boxformregister table tr td input {
+    height: 27px;
+    width: 280px;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #192a56;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+#boxregister .boxformregister table tr td select {
+    height: 27px;
+    width: 96.5px;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #307FE2;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+#boxregister .boxformregister table tr td button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #4cd137;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#boxregister .boxformregister table tr td button:hover {
+    color: #ffffff;
+    background-color: #307FE2;
+    transition: .6s;
+}
+
+.titleboxform2 {
+    position: relative;
+    top: 15px;
+    color: #307FE2;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*-------------------------cours-classe----------------------*/
+.section-classe {
+
+    left: 15%;
+    text-align: center;
+}
+
+.section-niveau {
+    text-align: center;
+}
+
+.section-niveau h2 {
+    color: #307FE2;
+}
+
+.section-niveau .box-classe {
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+    border-radius: 40px;
+    transition: ;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    color: #307FE2;
+    cursor: pointer;
+}
+
+.section-niveau .box-classe:hover {
+    background-color: #646D78;
+}
+
+.section-niveau .box-classe img {
+    float: left;
+    position: relative;
+    top: 17px;
+    left: 15px;
+    width: 50px;
+}
+
+.section-niveau .box-classe h3 {
+    color: #307FE2;
+    position: relative;
+    top: 16px;
+    left: -5px;
+}
+
+.av-section-classe {
+    text-align: center;
+}
+
+.av-section-classe h1 {
+    color: #307FE2;
+}
+
+.av-section-classe img {
+    width: 500px;
+}
+
+/* --------profil-------- */
+#content .profil-box {
+    position: relative;
+    left: 50px;
+    width: 80em;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+}
+
+#content .profil-box .profil-cover-box {
+    text-align: center;
+}
+
+#content .profil-box .profil-cover-box img {
+    width: 65em;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#content .profil-box .profil-cover-box .pp-box {
+    position: relative;
+    top: -90px;
+    right: 300px;
+}
+
+#content .profil-box .profil-cover-box .pp-box img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 3px solid #307FE2;
+}
+
+#content .profil-box .profil-cover-box .name-pp-box {
+    position: relative;
+    top: -180px;
+    left: -150px;
+}
+
+#content .profil-box .profil-cover-box .name-pp-box h2 {
+    color: #307FE2;
+}
+
+#content .profil-box .info-profil-box {
+    position: relative;
+    top: -120px;
+}
+
+#content .profil-box .info-profil-box table {
+    width: 80em;
+    border-collapse: collapse;
+}
+
+#content .profil-box .info-profil-box td {
+    padding-left: 30px;
+    color: #307FE2;
+    font-weight: bold;
+}
+
+#content .profil-box .info-profil-box tr {
+    background-color: #ffffff;
+    height: 65px;
+}
+
+#content .profil-box .info-profil-box tr:nth-child(2n) {
+    background-color: #e0e7ef;
+}
+
+/* --------profil edit-------- */
+#content .profil-box .modif-info-profil-box {
+    position: relative;
+    /*top:-120px;*/
+}
+
+#content .profil-box .modif-info-profil-box table {
+    width: 80em;
+    border-collapse: collapse;
+}
+
+#content .profil-box .modif-info-profil-box td {
+    padding-left: 30px;
+    color: #307FE2;
+    font-weight: bold;
+}
+
+#content .profil-box .modif-info-profil-box tr {
+    background-color: #ffffff;
+    height: 65px;
+}
+
+#content .profil-box .modif-info-profil-box tr:nth-child(2n) {
+    background-color: #e0e7ef;
+}
+
+/*-----------------forum--------------------*/
+#content .forum-box1 {
+    position: relative;
+    left: 50px;
+    width: 80em;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+    text-align: center;
+}
+
+#content .forum-box1 h1 {
+    color: #307FE2;
+}
+
+#content .forum-box1 button {
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    background: rgb(48, 127, 226);
+    background: linear-gradient(90deg, rgba(48, 127, 226, 1) 0%, rgba(91, 208, 230, 1) 100%);
+    color: #ffffff;
+    width: auto;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#content .forum-box1 button:hover {
+    background: rgb(91, 208, 230);
+    background: linear-gradient(90deg, rgba(91, 208, 230, 1) 0%, rgba(48, 127, 226, 1) 100%);
+    color: #ffffff;
+}
+
+#content .forum-box2 {
+    position: relative;
+    left: 50px;
+    width: 80em;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+}
+
+.tableauforum1,
+tr,
+td {
+    border-collapse: collapse;
+}
+
+.forcatandscat .tableauforum1 {
+    width: 80em;
+}
+
+.forcatandscat .tableauforum1 tr {
+    background-color: #e0e7ef;
+    height: 65px;
+}
+
+.forcatandscat .tableauforum1 tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.forcatandscat .tableauforum1 tr td {
+    padding-left: 30px;
+    color: #307FE2;
+    font-weight: bold;
+}
+
+.forcatandscat .tableauforum1 tr td img {
+    width: 50px;
+    height: 50px;
+}
+
+.forcatandscat .tableauforum1 tr .categorie a {
+    color: #307FE2;
+    font-family: ;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forcatandscat .tableauforum1 tr .categorie a:hover {
+    color: #97a4c7;
+}
+
+.forcatandscat .tableauforum1 .thead {
+    background-color: #307FE2;
+    height: 35px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.forcatandscat .tableauforum1 .thead th {
+    padding-left: 0px;
+}
+
+.forcatandscat .tableauforum1 .souscatlink {
+    color: #192a56;
+    font-weight:bold; 
+    font-size:17px;
+    text-decoration:none;
+}
+
+.forcatandscat .tableauforum1 .souscatlink:hover {
+    color: #307FE2;
+    transition: .3s;
+}
+
+/* ----------------------- topic ---------------------*/
+#content .topic-box {
+    position: relative;
+    left: 50px;
+    width: 80em;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+    text-align: center;
+}
+
+.boxinfotopic {
+    max-width: 7em;
+    height: auto;
+    text-align: center;
+    color: #307FE2;
+
+}
+
+.boxinfotopic .ppinfotopic {}
+
+.boxinfotopic .ppinfotopic img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.topicmessagebox {
+    max-width: 62em;
+    height: auto;
+    background-color: #e0e7ef;
+    position: relative;
+    left: 7em;
+    top: -100px;
+}
+
+.topicmessagebox .barreinfotopic {
+    text-align: center;
+}
+
+.topicmessagebox .topicmessage {
+    padding: 15px;
+}
+
+.topiccommentbox {
+    max-width: 62em;
+    height: auto;
+    background-color: #e0e7ef;
+    position: relative;
+    left: 7em;
+    top: -90px;
+    text-align: center;
+}
+
+.topiccommentbox form {
+    padding: 15px;
+}
+
+.topiccommentbox .commenttextaera {
+    height: 200px;
+    width: 60em;
+    resize: both;
+    border: #192a56 solid 1px;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.topiccommentbox form button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #307FE2;
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    top: -15px;
+}
+
+.topiccommentbox form button:hover {
+    color: #ffffff;
+    background-color: #646D78;
+    transition: .6s;
+}
+
+/*---------------New Topic---------------*/
+.newtopix-box {
+    position: relative;
+    left: 50px;
+    width: 80em;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(222, 222, 222);
+    text-align: center;
+}
+
+.formtopic {
+    padding: 30px;
+}
+
+.formtopic input[type="text"] {
+    height: 27px;
+    width: 350px;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #192a56;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.formtopic label {
+    color: #192a56;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.formtopic select {
+    height: 27px;
+    width: 100px;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #192a56;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.formtopic textarea {
+    height: 390px;
+    width: 930px;
+    resize: both;
+    border: #307FE2 solid 1px;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.formtopic button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #307FE2;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.formtopic button:hover {
+    color: #ffffff;
+    background-color: #646D78;
+    transition: .6s;
+}
+
+.formtopic h2 {
+    color: #307FE2;
+}
