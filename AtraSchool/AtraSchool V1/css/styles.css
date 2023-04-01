@@ -1,0 +1,269 @@
+a{
+  text-decoration: none;
+}
+
+
+body p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+  color: #345EA8;
+}
+
+/* Top - Nav bar */
+#top{
+  padding: 0 15%;
+  margin: 0;
+  background-color: #EEDBCB;
+  height: 100%;
+}
+
+.brand {
+  width: 60%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  color: #345EA8;
+}
+/* Gerer les dropdown */
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white ;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:;
+  padding: 12px 16px;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: ;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: ;
+}
+
+/* Home presentation */
+#home-presentation {
+  padding: 8% 15%;
+  background-color: #345EA8;
+  border-bottom: solid #041C32 1px;
+}
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 4rem;
+}
+
+#home-presentation p, h2, h1{
+  color: #EEDBCB;
+}
+
+.mascotte-einstein {
+  width: 95%;
+}
+
+.mascotte-block {
+  padding-left: 8%;
+}
+
+.text-presentation {
+  padding-top: 6%;
+}
+/* Features */
+#features {
+  padding: 7% 15% 7%;
+  background-color: #EEDBCB;
+  position: relative;
+  border-bottom: solid #345EA8 1px;
+}
+
+.ft-col-lg-4{
+  text-align: center;
+  align-content: center;
+  padding:5%;
+}
+
+.ft-icons {
+  color: #345EA8;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.ft-icons:hover {
+  color: #3B8AC3;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #345EA8;
+  color: #fff;
+  /*border-bottom: solid #041C32 1px;*/
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.place{
+  font-style: italic;
+}
+
+/* call to action cta */
+#cta {
+  padding: 5% 15%;
+  background-color: #EEDBCB;
+  text-align: center;
+}
+
+.sign-button {
+  margin: 5% 2%;
+}
+
+.studying-img {
+  margin-top: 3%;
+  width: 30%;
+}
+
+/* sigh-in */
+#sign-in, #sign-up {
+  margin: 7% 30%;
+  padding: 2% 5%;
+  border-radius: /*5%*/50px;
+  border: solid #345EA8 2px;
+  background-color: #EEDBCB;
+}
+
+.rest-connect {
+  padding: 5% 0;
+}
+
+.btn-connect {
+  margin: 5% 0;
+}
+
+/* sign-up choice */
+.choice-bloc {
+  margin: 3% 1%;
+}
+
+.choice {
+  border-bottom: solid #345EA8 2px;
+  text-align: center;
+  padding: 2%;
+}
+
+.sign-up-choice {
+  border: solid #345EA8 2px ;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+/* cours */
+#ressources {
+  padding: 5% 15%;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  background-color: #EEDBCB;
+}
+
+#cours {
+  padding: 5% 15%;
+}
+.container-img-card-course{
+  display: flex;
+  justify-content: center;
+}
+
+.card-group-course img{
+  width: 40%;
+  margin-top: 10px;
+}
+
+/* tout sur 6e */
+#cours-classe, #exercices-classe {
+  padding: 5% 15%;
+}
+
+
+.card-matieres {
+  margin: 3% 3%;
+  background-color: #EEDBCB;
+}
+
+/*.wrapper::-webkit-scrollbar{
+  display:none;
+}*/
+
+
+/* Tle histoire cours*/
+#sommaire-matieres {
+  padding: 5% 15%;
+}
+
+
+/* pdf */
+#pdf-container {
+  margin: 5% 15% 5% 45%;
+}
+
+/* footer */
+#footer{
+  padding: 2% 15%;
+  background-color: #345EA8;
+}
+
+.footer-brand{
+  padding-top: 1rem;
+}
+
+#footer p{
+  color: #EEDBCB;
+}
+
+#footer h5{
+  color: #EEDBCB;
+}
+
+#footer a{
+  color: #EEDBCB;
+}
+
+#footer a:hover{
+  color: #064663;
+}
